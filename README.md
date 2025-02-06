@@ -90,3 +90,4 @@ Contributions are welcome! If you'd like to contribute to **Laravel Flux UI Star
 
 For any inquiries, please reach out at brossani23@gmail.com.
 # digizen
+# digizen

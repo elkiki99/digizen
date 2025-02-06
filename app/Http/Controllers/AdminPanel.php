@@ -45,4 +45,9 @@ class AdminPanel extends Controller
     {
         return view('admin.analytics');
     }
+
+    public function legal()
+    {
+        return view('admin.legal');
+    }
 }

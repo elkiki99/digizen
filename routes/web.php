@@ -33,6 +33,7 @@ Route::middleware([EnsureUserIsAdmin::class])->group(function () {
     Route::get('calendar', [AdminPanel::class, 'calendar'])->middleware(['auth', 'verified'])->name('calendar');
     Route::get('configuration', [AdminPanel::class, 'configuration'])->middleware(['auth', 'verified'])->name('configuration');
     Route::get('analytics', [AdminPanel::class, 'analytics'])->middleware(['auth', 'verified'])->name('analytics');
+    Route::get('legal', [AdminPanel::class, 'legal'])->middleware(['auth', 'verified'])->name('legal');
 });
 
 require __DIR__ . '/auth.php';

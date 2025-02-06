@@ -44,7 +44,7 @@
             </div>
 
             <!-- Main Content -->
-            <main class="flex-1 p-8 max-lg:max-w-2xl max-lg:mx-auto">
+            <main class="flex-1 p-8 mb-6 max-lg:max-w-2xl max-lg:mx-auto">
                 {{ $slot }}
             </main>
         </div>    
