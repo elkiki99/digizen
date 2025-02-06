@@ -12,7 +12,7 @@
 - **Responsive Design**: Perfectly adapts to all devices, from mobile to large screens, using Tailwind CSS.
 - **Component-Based System**: A collection of reusable UI components for consistency and efficiency.
 - **Optimized User Experience**: Carefully designed interactions and layouts to enhance usability and engagement.
-- **Pre-built User & Admin Dashboards**: Ready-to-use dashboards with essential components provided by https://github.com/elkiki99/flux-volt-starter-kit.
+- **Pre-built User & Admin Dashboards**: Ready-to-use dashboards with essential components provided by FluxUI, built on top of my own starter kit: https://github.com/elkiki99/flux-volt-starter-kit.
 
 ## Getting Started
 
