@@ -1,6 +1,6 @@
 # Digizen
 
-**Digizen** is a powerful foundation for building web applications. Designed for developers with a Flux UI subscription, it offers ready-to-use features such as user and admin dashboards, essential views, and seamless integration with Laravel Breeze. The kit is enhanced with Livewire for dynamic, real-time content, and provides both user and admin middleware for streamlined management. It is inspired by https://www.digidop.com/, a Webflow digital agency.
+**Digizen** is a sleek and modern template designed for digital agencies and web applications. It provides a solid foundation with beautifully crafted pages, intuitive layouts, and a fully responsive design powered by Laravel and Livewire FluxUI components. The template includes ready-to-use user and admin dashboards, pre-configured authentication with Laravel Breeze, and middleware for role-based access. Inspired by Digidop, a Webflow digital agency, Digizen is the perfect starting point for building professional and high-performance digital products.
 
 
 
