@@ -89,4 +89,3 @@ Contributions are welcome! If you'd like to contribute to **Digizen**, please fo
 ## Contact
 
 For any inquiries, please reach out at brossani23@gmail.com.
-# digizen
