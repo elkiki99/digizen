@@ -1,29 +1,29 @@
-# Laravel Flux UI Starter Kit
+# Digizen
 
-**Laravel Flux UI Starter Kit** is a powerful foundation for building web applications. Designed for developers with a Flux UI subscription, it offers ready-to-use features such as user and admin dashboards, essential views, and seamless integration with Laravel Breeze. The kit is enhanced with Livewire for dynamic, real-time content, and provides both user and admin middleware for streamlined management.
+**Digizen** is a powerful foundation for building web applications. Designed for developers with a Flux UI subscription, it offers ready-to-use features such as user and admin dashboards, essential views, and seamless integration with Laravel Breeze. The kit is enhanced with Livewire for dynamic, real-time content, and provides both user and admin middleware for streamlined management. It is inspired by https://www.digidop.com/, a Webflow digital agency.
 
 
 
 
 ## Key Features
 
-- **Responsive Design**: Flux UI components ensure a seamless experience across desktops, tablets, and mobile devices with Tailwind CSS.
-- **Livewire Integration**: Real-time data updates and interactive UI components without needing page reloads.
-- **Pre-built User & Admin Dashboards**: Ready-to-use dashboards with essential components.
-- **Authentication & Authorization**: Built-in user authentication and role-based access control for secure applications.
-- **Laravel Breeze Integration**: Comes bundled with Laravel Breeze for fast, simple authentication setup.
-- **Admin & User Middlewares**: Pre-configured middleware for user and admin-specific content access and management.
+- **Modern & Elegant Design**: A well-structured, visually stunning layout designed for a seamless user experience.
+- **Fully Configured Pages**: Beautiful, pre-built pages optimized for various purposes within the platform.
+- **Responsive Design**: Perfectly adapts to all devices, from mobile to large screens, using Tailwind CSS.
+- **Component-Based System**: A collection of reusable UI components for consistency and efficiency.
+- **Optimized User Experience**: Carefully designed interactions and layouts to enhance usability and engagement.
+- **Pre-built User & Admin Dashboards**: Ready-to-use dashboards with essential components provided by https://github.com/elkiki99/flux-volt-starter-kit.
 
 ## Getting Started
 
-To use **Laravel Flux UI Starter Kit**, make sure you have a Flux UI subscription and Tailwind CSS v4.0 installed, then follow this instructions:
+To use **Digizen**, make sure you have a Flux UI subscription and Tailwind CSS v4.0 installed, then follow this instructions:
 
 1. **Fork the repository.**
 
 2. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/elkiki99/flux-volt-starter-kit new-name
+    git clone https://github.com/elkiki99/digizen new-name
     cd new-name
     ```
 
@@ -84,7 +84,7 @@ To use **Laravel Flux UI Starter Kit**, make sure you have a Flux UI subscriptio
       
 ## Contributions
 
-Contributions are welcome! If you'd like to contribute to **Laravel Flux UI Starter Kit**, please follow these steps:
+Contributions are welcome! If you'd like to contribute to **Digizen**, please follow these steps:
 
 ## Contact
 
