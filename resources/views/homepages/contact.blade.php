@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="Contact • Digizen">
     <flux:main container>
         <section class="flex flex-col gap-8 space-y-6 lg:flex-row">
             <div class="w-full space-y-3 lg:w-1/2">

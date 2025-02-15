@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="Blog • Digizen">
     <flux:main container>
         <!-- Hero section -->
         <section class="flex flex-col min-h-[85vh] mb-12 space-y-6">

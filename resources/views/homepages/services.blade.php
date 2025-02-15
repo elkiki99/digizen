@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="Services • Digizen">
     <flux:main container>
         <!-- Hero section -->
         <section class="flex flex-col justify-center h-[85vh] pb-6 overflow-hidden">
@@ -47,7 +47,7 @@
                         <div class="block gap-4 lg:flex">
                             <div class="w-full lg:w-1/2">
                                 <img class="object-cover w-full rounded-lg h-[30vh] md:h-[60vh]"
-                                    src="{{ asset('case_study-1.jpg') }}" alt="Case Study 1.1">
+                                    src="{{ asset('img/case_studies/case_study-1.jpg') }}" alt="Case Study 1.1">
                             </div>
 
                             <div
@@ -55,9 +55,9 @@
                                 <div
                                     class="flex flex-row w-full gap-4 pt-4 md:flex-col md:w-1/2 lg:flex lg:flex-row lg:w-full lg:space-y-0 lg:pt-0">
                                     <img class="object-cover rounded-lg h-[15vh] sm:h-[25vh] w-full"
-                                        src="{{ asset('case_study-13.webp') }}" alt="Case Study 1.2">
+                                        src="{{ asset('img/case_studies/case_study-13.webp') }}" alt="Case Study 1.2">
                                     <img class="object-cover rounded-lg h-[15vh] sm:h-[25vh] w-full"
-                                        src="{{ asset('case_study-12.webp') }}" alt="Case Study 1.3">
+                                        src="{{ asset('img/case_studies/case_study-12.webp') }}" alt="Case Study 1.3">
                                 </div>
                                 <div class="flex flex-col flex-1 w-full gap-4 md:py-4 md:w-1/2 lg:w-full lg:p-0">
                                     <div class="items-start flex-1 text-start">
@@ -85,7 +85,7 @@
                         <div class="block gap-4 lg:flex">
                             <div class="w-full lg:w-1/2">
                                 <img class="object-cover w-full rounded-lg h-[30vh] md:h-[60vh]"
-                                    src="{{ asset('case_study-5.webp') }}" alt="Case Study 2.1">
+                                    src="{{ asset('img/case_studies/case_study-5.webp') }}" alt="Case Study 2.1">
                             </div>
 
                             <div
@@ -93,9 +93,9 @@
                                 <div
                                     class="flex flex-row w-full gap-4 pt-4 md:flex-col md:w-1/2 lg:flex lg:flex-row lg:w-full lg:space-y-0 lg:pt-0">
                                     <img class="object-cover rounded-lg h-[15vh] sm:h-[25vh] w-full"
-                                        src="{{ asset('case_study-4.webp') }}" alt="Case Study 2.2">
+                                        src="{{ asset('img/case_studies/case_study-4.webp') }}" alt="Case Study 2.2">
                                     <img class="object-cover rounded-lg h-[15vh] sm:h-[25vh] w-full"
-                                        src="{{ asset('case_study-6.webp') }}" alt="Case Study 2.3">
+                                        src="{{ asset('img/case_studies/case_study-6.webp') }}" alt="Case Study 2.3">
                                 </div>
                                 <div class="flex flex-col flex-1 w-full gap-4 md:py-4 md:w-1/2 lg:w-full lg:p-0">
                                     <div class="items-start flex-1 text-start">

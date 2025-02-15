@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="About • Digizen">
     <flux:main container>
         <!-- Hero section -->
         <section class="flex flex-col justify-center h-[85vh] pb-6">
@@ -112,7 +112,7 @@
                             <div class="flex flex-col-reverse gap-4 lg:flex-row">
                                 <div class="w-full lg:w-1/2">
                                     <img loading="lazy" class="object-cover md:w-full rounded-lg h-[60vh] lg:h-[40vh]"
-                                        src="{{ asset('case_study-1.jpg') }}" alt="About 3">
+                                        src="{{ asset('img/case_studies/case_study-1.jpg') }}" alt="About 3">
                                 </div>
 
                                 <div class="flex flex-col justify-around w-full ml-0 lg:ml-8 lg:w-1/2">
@@ -140,7 +140,7 @@
                             <div class="flex flex-col-reverse gap-4 lg:flex-row">
                                 <div class="w-full lg:w-1/2">
                                     <img loading="lazy" class="object-cover md:w-full rounded-lg h-[60vh] lg:h-[40vh]"
-                                        src="{{ asset('case_study-4.webp') }}" alt="About 4">
+                                        src="{{ asset('img/case_studies/case_study-4.webp') }}" alt="About 4">
                                 </div>
 
                                 <div class="flex flex-col justify-around w-full ml-0 lg:ml-8 lg:w-1/2">

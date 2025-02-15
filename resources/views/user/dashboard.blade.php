@@ -1,4 +1,4 @@
-<x-dashboard-layout>
+<x-dashboard-layout title="Dashboard • Digizen">
     <div class="self-stretch flex-1 max-lg:max-w-2xl max-lg:mx-auto">
         <flux:heading level="1" size="xl">Good afternoon, {{ Auth::user()->name }}</flux:heading>
 

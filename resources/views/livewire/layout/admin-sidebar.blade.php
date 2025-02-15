@@ -25,9 +25,9 @@ new class extends Component {
         class="h-screen border-r bg-zinc-100 dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700">
         <flux:sidebar.toggle class="lg:hidden" icon="x-mark" />
 
-        <flux:brand href="/" logo="{{ asset('app-logo-black.png') }}" name="{{ config('app.name') }}"
+        <flux:brand href="/" logo="{{ asset('dz-logo-black.png') }}" name="{{ config('app.name') }}"
             class="px-2 dark:hidden" />
-        <flux:brand href="/" logo="{{ asset('app-logo-white.png') }}" name="{{ config('app.name') }}"
+        <flux:brand href="/" logo="{{ asset('dz-logo-white.png') }}" name="{{ config('app.name') }}"
             class="hidden px-2 dark:flex" />
 
         <flux:navlist variant="outline">
@@ -52,7 +52,7 @@ new class extends Component {
         <!-- User dropdown -->
         <flux:dropdown position="top" align="end" class="hidden lg:flex">
             <flux:profile name="{{ Auth::user()->name }}"
-                avatar="{{ Auth::user()->profile_picture ?? 'https://fluxui.dev/img/demo/user.png' }}" />
+                avatar="{{ Auth::user()->profile_picture ?? asset('me.webp') }}" />
 
             <flux:menu>
                 <div class="px-2 py-1.5">

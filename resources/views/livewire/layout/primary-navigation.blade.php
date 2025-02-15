@@ -30,14 +30,14 @@ new class extends Component {
     @if (!request()->routeIs('pricing') && !request()->routeIs('contact'))
         <flux:sidebar.toggle class="md:hidden" icon="bars-2" inset="left" />
 
-        <flux:brand wire:navigate href="/" logo="{{ asset('app-logo-black.png') }}" name="{{ config('app.name') }}"
+        <flux:brand wire:navigate href="/" logo="{{ asset('dz-logo-black.png') }}" name="{{ config('app.name') }}"
             class="max-md:hidden dark:hidden" />
-        <flux:brand wire:navigate href="/" logo="{{ asset('app-logo-white.png') }}"
+        <flux:brand wire:navigate href="/" logo="{{ asset('dz-logo-white.png') }}"
             name="{{ config('app.name') }}" class="max-md:!hidden hidden dark:flex" />
     @else
-        <flux:brand wire:navigate href="/" logo="{{ asset('app-logo-black.png') }}"
+        <flux:brand wire:navigate href="/" logo="{{ asset('dz-logo-black.png') }}"
             name="{{ config('app.name') }}" class="dark:hidden" />
-        <flux:brand wire:navigate href="/" logo="{{ asset('app-logo-white.png') }}"
+        <flux:brand wire:navigate href="/" logo="{{ asset('dz-logo-white.png') }}"
             name="{{ config('app.name') }}" class="hidden dark:flex" />
     @endif
 
@@ -74,7 +74,7 @@ new class extends Component {
             @endif
 
             <flux:dropdown position="top" align="start">
-                <flux:profile avatar="{{ Auth::user()->profile_picture ?? 'https://fluxui.dev/img/demo/user.png' }}" />
+                <flux:profile avatar="{{ Auth::user()->profile_picture ?? asset('me.webp') }}" />
 
                 <flux:menu>
                     <div class="px-2 py-1.5">
