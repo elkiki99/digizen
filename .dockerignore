@@ -17,6 +17,7 @@ fly.toml
 .vscode
 .idea
 **/*node_modules
+public/img
 **.git
 **.gitignore
 **.gitattributes

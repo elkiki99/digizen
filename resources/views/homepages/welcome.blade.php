@@ -105,7 +105,7 @@
                         <flux:card
                             class="!bg-transparent lg:w-1/2 min-h-[20vh] w-full !pt-0 lg:!pt-1 !pb-1 !pl-1 !pr-1 h-full lg:!pr-0  lg:!rounded-l-lg rounded-t-none rounded-b-lg lg:!rounded-r-none">
                             <img class="object-cover w-full h-full rounded-b-lg lg:rounded-l-lg lg:rounded-r-none"
-                                loading="lazy" src="{{ asset('0.webp') }}" alt="Image of service 1">
+                                loading="lazy" src="{{ asset('img/0.webp') }}" alt="Image of service 1">
                         </flux:card>
                     </article>
                 </flux:card>
@@ -156,7 +156,7 @@
                         <flux:card
                             class="!bg-transparent lg:w-1/2 min-h-[20vh] w-full !pt-0 lg:!pt-1 !pb-1 !pl-1 !pr-1 h-full lg:!pr-0  lg:!rounded-l-lg rounded-t-none rounded-b-lg lg:!rounded-r-none">
                             <img class="object-cover w-full h-full rounded-b-lg lg:rounded-l-lg lg:rounded-r-none"
-                                loading="lazy" src="{{ asset('111.webp') }}" alt="Image of service 2">
+                                loading="lazy" src="{{ asset('img/111.webp') }}" alt="Image of service 2">
                         </flux:card>
                     </article>
                 </flux:card>
@@ -208,7 +208,7 @@
                         <flux:card
                             class="!bg-transparent h-full lg:w-1/2 min-h-[20vh] w-full !pt-0 lg:!pt-1 !pb-1 !pl-1 !pr-1 lg:!pr-0  lg:!rounded-l-lg rounded-t-none rounded-b-lg lg:!rounded-r-none">
                             <img class="object-cover w-full h-full rounded-b-lg lg:rounded-l-lg lg:rounded-r-none"
-                                loading="lazy" src="{{ asset('22.webp') }}" alt="Image of service 3">
+                                loading="lazy" src="{{ asset('img/22.webp') }}" alt="Image of service 3">
                         </flux:card>
                     </article>
                 </flux:card>
@@ -379,7 +379,7 @@
                         class="relative !p-0 h-[80vh] hover:opacity-80 hover:bg-black transition duration-300 !border-none">
                         <a wire:navigate href="#">
                             <img loading="lazy" class="object-cover w-full h-full rounded-lg"
-                                src="{{ asset('joe.jpg') }}" alt="Popular Article 1">
+                                src="{{ asset('img/joe.jpg') }}" alt="Popular Article 1">
                             <div
                                 class="absolute bottom-0 left-0 w-full h-32 rounded-b-lg bg-gradient-to-t from-black/90 to-transparent">
                             </div>
@@ -400,7 +400,7 @@
                         class="relative !p-0 h-[80vh] hover:opacity-80 hover:bg-black transition duration-300 !border-none">
                         <a wire:navigate href="#">
                             <img loading="lazy" class="object-cover w-full h-full rounded-lg"
-                                src="{{ asset('umb.jpg') }}" alt="Popular Article 2">
+                                src="{{ asset('img/umb.jpg') }}" alt="Popular Article 2">
                             <div
                                 class="absolute bottom-0 left-0 w-full h-32 rounded-b-lg bg-gradient-to-t from-black/90 to-transparent">
                             </div>
@@ -420,7 +420,7 @@
                         class="relative !p-0 h-[80vh] hover:opacity-80 hover:bg-black transition duration-300 !border-none">
                         <a wire:navigate href="#">
                             <img loading="lazy" class="object-cover w-full h-full rounded-lg"
-                                src="{{ asset('blog-33.webp') }}" alt="Popular Article 3">
+                                src="{{ asset('img/blog-33.webp') }}" alt="Popular Article 3">
                             <div
                                 class="absolute bottom-0 left-0 w-full h-32 rounded-b-lg bg-gradient-to-t from-black/90 to-transparent">
                             </div>

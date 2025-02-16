@@ -109,8 +109,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'flux@kit.com'),
-        'name' => env('MAIL_FROM_NAME', 'Flux Kit'),
+        'address' => env('MAIL_FROM_ADDRESS', 'digizen@gmail.com'),
+        'name' => env('MAIL_FROM_NAME', 'Digizen'),
     ],
 
 ];

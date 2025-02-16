@@ -290,7 +290,7 @@
                 <article class=" lg:w-1/3">
                     <flux:card
                         class="relative !p-0 h-[80vh] hover:opacity-80 hover:bg-black transition duration-300 !border-none">
-                        <a wire:navigate href="#">
+                        <a wire:navigate href="/blog">
                             <img loading="lazy" class="object-cover w-full h-full rounded-lg"
                                 src="{{ asset('joe.jpg') }}" alt="Popular Article 1">
                             <div
@@ -310,7 +310,7 @@
                 <article class=" lg:w-1/3">
                     <flux:card
                         class="relative !p-0 h-[80vh] hover:opacity-80 hover:bg-black transition duration-300 !border-none">
-                        <a wire:navigate href="#">
+                        <a wire:navigate href="/blog">
                             <img loading="lazy" class="object-cover w-full h-full rounded-lg"
                                 src="{{ asset('umb.jpg') }}" alt="Popular Article 2">
                             <div
@@ -329,7 +329,7 @@
                 <article class=" lg:w-1/3">
                     <flux:card
                         class="relative !p-0 h-[80vh] hover:opacity-80 hover:bg-black transition duration-300 !border-none">
-                        <a wire:navigate href="#">
+                        <a wire:navigate href="/blog">
                             <img loading="lazy" class="object-cover w-full h-full rounded-lg"
                                 src="{{ asset('blog-33.webp') }}" alt="Popular Article 3">
                             <div

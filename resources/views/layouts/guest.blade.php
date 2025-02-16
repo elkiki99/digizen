@@ -9,7 +9,7 @@
     <title>{{ $title ?? config('app.name', 'Welcome • Digizen') }}</title>
 
     <!-- Fonts -->
-    <link rel="icon" href="{{ asset('dz-logo-white.png') }}" />
+    <link rel="icon" href="{{ asset('img/dz-logo-white.png') }}" />
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:400,500,600&display=swap" rel="stylesheet" />
 

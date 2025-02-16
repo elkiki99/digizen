@@ -31,21 +31,21 @@
     <livewire:layout.primary-sidebar />
 
     <!-- Glowing Blob -->
-    <div class="absolute top-1/4 right-1/4 w-96 h-96 dark:lg:bottom-1/4 dark:lg:right-1/4 dark:bottom-3/4 dark:right-1/2 dark:lg:w-96 dark:lg:h-96 dark:h-48 dark:w-48 bg-amber-100 blur-[150px] animate-pulse opacity-40 rounded-full"
+    {{-- <div class="absolute top-1/4 right-1/4 w-96 h-96 dark:lg:bottom-1/4 dark:lg:right-1/4 dark:bottom-3/4 dark:right-1/2 dark:lg:w-96 dark:lg:h-96 dark:h-48 dark:w-48 bg-amber-100 blur-[150px] animate-pulse opacity-40 rounded-full"
         style="pointer-events: none;">
-    </div>
+    </div> --}}
 
     <!-- Main -->
-    <main class="flex-grow w-full py-3">
+    {{-- <main class="flex-grow w-full py-3">
         {{ $slot }}
-    </main>
+    </main> --}}
 
     <!-- Footer -->
-    @if (request()->routeIs('contact') || request()->routeIs('pricing') || request()->routeIs('privacy') || request()->routeIs('terms')) 
+    {{-- @if (request()->routeIs('contact') || request()->routeIs('pricing') || request()->routeIs('privacy') || request()->routeIs('terms')) 
         <livewire:layout.footer-2 />
     @else
         <livewire:layout.footer />
-    @endIf
+    @endIf --}}
 
     @fluxScripts
 
