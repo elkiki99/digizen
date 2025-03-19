@@ -81,6 +81,10 @@ To use **Digizen**, make sure you have a Flux UI subscription and Tailwind CSS v
 10. **Change flux theme**
 
     - You can go to https://fluxui.dev/themes and follow the instructions to add or modify the application theme.
+
+## Demo
+
+Check out the demo here: https://digizen.fly.dev/
       
 ## Contributions
 
